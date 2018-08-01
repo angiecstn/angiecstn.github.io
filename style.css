@@ -1,4 +1,15 @@
 h1 {
     color: #0066ff
   }
-  
+
+.mac {
+  width: 300px
+}
+
+.navbar{
+  display: flex
+}
+
+.nav-button {
+  padding:10px
+}
