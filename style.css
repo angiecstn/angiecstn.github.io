@@ -13,3 +13,20 @@ h1 {
 .nav-button {
   padding:10px
 }
+
+html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+.title { font-family: Courier New, monospace 
