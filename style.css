@@ -1,32 +1,93 @@
 h1 {
-    color: #0066ff
-  }
+    color: #339966;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+}
 
-.mac {
-  width: 300px
+.body {
+  margin: 0;
+}
+
+
+
+.mac{
+width: 300px;
+display:block;
+margin-left:auto;
+margin-right: auto;
 }
 
 .navbar{
-  display: flex
+  display: flex;
+  background: #339966;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.nav-button-wrapper {
+  display: flex;
+}
+
+.contact {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.contact-list {
+  list-style-type: none;
 }
 
 .nav-button {
   padding:10px
 }
 
-html, body {
-  height: 100%;
-}
-
-html {
-  display: table;
-  margin: auto;
-}
-
-body {
-  display: table-cell;
-  vertical-align: middle;
+.main{
+  align: center;
+text-align: center;
+font-family: 'Times New Roman', Times, serif
 }
 
 
 .title { font-family: Courier New, monospace 
+}
+
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+about{
+  text-align: center;
+  font-family: 'Lucida Sans';
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.about{
+  align= center;
+}
+
+.pabout{
+  text-align: center;justify-content;
+  font-family: 'Lucida Sans';
+}
+
+.test{
+  background: green;
+  width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    text-align: justify;
+    border-radius: 8px;
+}
+
+.search{
+  float:right;
+align-self: center;
+text-align:left;
+}
